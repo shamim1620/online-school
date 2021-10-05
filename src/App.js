@@ -2,20 +2,22 @@ import logo from './logo.svg';
 import './App.css';
 import Manubar from './components/Manubar/Manubar';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Home from './components/Home/Home';
+import Services from './components/Services/Services';
+import About from './components/About/About';
+import Notfound from './components/Notfound/Notfound';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
-import Home from './components/Home/Home';
-import Services from './components/Services/Services';
-import About from './components/About/About';
-import Notfound from './components/Notfound/Notfound';
-import Footer from './components/About/Footer/Footer';
+import Footer from './components/Footer/Footer';
+
 
 
 
 function App() {
+
 
   return (
     <div>

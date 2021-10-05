@@ -7,7 +7,7 @@ const Manubar = () => {
         <div>
             <Navbar bg="primary" variant="dark">
                 <Container>
-                    <Navbar.Brand as={NavLink} to="/home">Navbar</Navbar.Brand>
+                    <Navbar.Brand as={NavLink} to="/home"><i class="fas fa-graduation-cap"></i> <span className="text-warning">Online School</span></Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link as={NavLink} to="/home">Home</Nav.Link>
                         <Nav.Link as={NavLink} to="/Services">Services</Nav.Link>
