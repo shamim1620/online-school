@@ -15,7 +15,9 @@ const Services = () => {
             <div className="container">
                 <Row xs={1} md={3} className="g-4">
                     {
-                        courses.map(course => <Item course={course}></Item>)
+                        courses.map(course => <Item course={course}
+                            key={course.id}
+                        ></Item>)
                     }
                 </Row>
             </div>

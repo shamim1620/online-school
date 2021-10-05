@@ -12,6 +12,7 @@ import {
   Route,
 } from "react-router-dom";
 import Footer from './components/Footer/Footer';
+import Contact from './components/Contact/Contact';
 
 
 
@@ -45,11 +46,17 @@ function App() {
             <Services></Services>
             <Footer></Footer>
           </Route>
+          <Route>
+            <Manubar></Manubar>
+            <Contact></Contact>
+            <Footer></Footer>
+
+          </Route>
           <Route path="*">
             <Manubar></Manubar>
             <Notfound></Notfound>
-
           </Route>
+
         </Switch>
       </Router>
     </div>

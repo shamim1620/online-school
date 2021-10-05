@@ -10,8 +10,9 @@ const Manubar = () => {
                     <Navbar.Brand as={NavLink} to="/home"><i class="fas fa-graduation-cap"></i> <span className="text-warning">Online School</span></Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link as={NavLink} to="/home">Home</Nav.Link>
-                        <Nav.Link as={NavLink} to="/Services">Services</Nav.Link>
+                        <Nav.Link as={NavLink} to="/services">Services</Nav.Link>
                         <Nav.Link as={NavLink} to="/about">About</Nav.Link>
+                        <Nav.Link as={NavLink} to="/contact">Contact Us</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>

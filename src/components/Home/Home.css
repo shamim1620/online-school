@@ -2,7 +2,9 @@
     background-color: silver;
 }
 .top-banner{
-    background-image: url("https://t3.ftcdn.net/jpg/03/69/00/58/360_F_369005893_UYbUUUHDiB0HT7vs7EpO0JZ4vf830R5K.jpg");
+    background-image: url("../../media/image/cover.jpg");
     background-repeat: no-repeat;
+    color: springgreen;
+    text-align:center;
     
 }
